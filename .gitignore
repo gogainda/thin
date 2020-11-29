@@ -12,6 +12,7 @@ ext/thin_parser/*.so
 *.gem
 log
 spec/rails_app/log
+spec/tmp
 doc/rdoc/*
 tmp/*
 pkg/*
