@@ -19,19 +19,8 @@ jobs:
           - 2.5
           - 2.6
           - 2.7
+          - truffleruby-head
         
-        include:
-          - experimental: true
-            os: ubuntu
-            ruby: head
-          - experimental: true
-            os: ubuntu
-            ruby: 2.7
-            env: BUNDLE_GEMFILE=gems/rack-v1.rb
-          - experimental: true
-            os: ubuntu
-            ruby: 2.7
-            env: BUNDLE_GEMFILE=gems/rack-head.rb
     
     steps:
     - uses: actions/checkout@v1
